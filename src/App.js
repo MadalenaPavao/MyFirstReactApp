@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
       {/* <ImageCircle /> */}
-      <ImageCircleC />
+      {/* <ImageCircleC /> */}
+      <ImageCircle name="Madalena" lastname="Pavão" age="25" description="J'aime React" imgUrl="https://picsum.photos/id/1014/300/300"/>
       <p>Ce text est dans App.js!</p>
     </div>
   );
