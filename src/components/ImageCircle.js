@@ -3,7 +3,7 @@ import './ImageCircle.css';
 
 // COMPOSANT STATELESS = COMPOSANT FONCTION
 
-const ImageCircle = (props) => {
+const ImageCircle = (props) => {  // ou {name, lastname, imgUrl, description} et les accedons directement
     // const user = {
     //     name: 'Madalena',
     //     lastname: 'Pavão',
@@ -26,12 +26,22 @@ const ImageCircle = (props) => {
         //     <p>{user.description}</p>
         // </div>
     
+    // <div class="container" > 
+    //         <img src={imgUrl} />
+    //         <p>Nom: {fullname()}</p>
+    //         <p>Age: {age}</p>
+    //         <p>Description: {description}</p>
+    //     </div>
+ 
     <div class="container" > 
-            <img src={imgUrl} />
-            <p>{fullname()}</p>
-            <p>{age}</p>
-            <p>{description}</p>
-        </div>
+        <img src={imgUrl} />
+        <p>Nom: {fullname()}</p>
+        <p>Age: {age}</p>
+        <p>Description: {description}</p>
+        <p><input type="text" placeholder="Prénom NOM" value={fullname()}></input></p>
+        <p><input type="text" placeholder="Age" value={age}></input></p>
+        <p><input type="text" placeholder="Description" value={description}></input></p>
+    </div>
     )
 }
 

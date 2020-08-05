@@ -15,14 +15,12 @@ function App() {
     //     imgUrl: 'https://picsum.photos/id/1014/300/300'
     // }
 
-    
+
   return (
-    <div>
-      {/* <ImageCircle /> */}
-      {/* <ImageCircleC /> */}
-      <ImageCircle name="Madalena" lastname="Pavão" age="25" description="J'aime React" imgUrl="https://picsum.photos/id/1014/300/300"/>
-      <p>Ce text est dans App.js!</p>
-    </div>
+      /* <ImageCircle /> */
+      /* <ImageCircleC /> */
+      <ImageCircle name="Madalena" lastname="Pavão" age="25" description="J'aime React! :)" imgUrl="https://picsum.photos/id/1025/300/300"/>
+      // <p>Ce text est dans App.js!</p>
   );
 }
 
