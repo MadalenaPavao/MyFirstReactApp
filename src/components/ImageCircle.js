@@ -38,9 +38,6 @@ const ImageCircle = (props) => {  // ou {name, lastname, imgUrl, description} et
         <p>Nom: {fullname()}</p>
         <p>Age: {age}</p>
         <p>Description: {description}</p>
-        <p><input type="text" placeholder="Prénom NOM" value={fullname()}></input></p>
-        <p><input type="text" placeholder="Age" value={age}></input></p>
-        <p><input type="text" placeholder="Description" value={description}></input></p>
     </div>
     )
 }
