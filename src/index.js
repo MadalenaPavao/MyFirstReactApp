@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const FirstCompo = () => {
+  return React.createElement("p", { style :{backgroundColor : 'green'}, id: 'parentP' }, "Nous sommes en formations React !!!!")
+}
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <FirstCompo />,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
