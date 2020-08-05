@@ -13,6 +13,7 @@ const ImageCircle = (props) => {
     // }
     console.log(props, " props");
     const {name, lastname, age, description, imgUrl} = props
+    //Ou si nous ne voulons pas definir props, on peu acceder aus champs automatiquement avec props.name, props.age, ...
     
     // const fullname = () => user.name + ' ' + user.lastname  // fonction! 
     const fullname = () => name + ' ' + lastname
