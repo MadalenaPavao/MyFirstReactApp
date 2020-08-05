@@ -6,6 +6,16 @@ import ImageCircleC from './components/ImageCircleC';
 
 
 function App() {
+
+   // const user = {
+    //     name: 'Madalena',
+    //     lastname: 'Pavão',
+    //     age: '25 ans',
+    //     description: "J'aime React :)",
+    //     imgUrl: 'https://picsum.photos/id/1014/300/300'
+    // }
+
+    
   return (
     <div>
       {/* <ImageCircle /> */}
