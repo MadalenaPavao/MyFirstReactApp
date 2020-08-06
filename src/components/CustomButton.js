@@ -1,13 +1,11 @@
 import React, { Fragment } from 'react';
 
-//const CustomButton = ({buttonName = "Show description", children})=>{
-const CustomButton = ({buttonName = "Show description", children})=>{
+const CustomButton = ({buttonName = "Hide description", children})=>{
     console.log(children, "<=== children")
     return (
         <Fragment>
-            <button className="btn btn-success">{ buttonName }</button>
+            <button className="btn btn-primary">{ buttonName }</button>
             <div>{children}</div>
-
         </Fragment>
     )
 }

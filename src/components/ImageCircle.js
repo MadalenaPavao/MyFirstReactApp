@@ -44,4 +44,4 @@ const ImageCircle = (props) => {  // ou {name, lastname, imgUrl, description} et
     )
 }
 
-export default ImageCircle
+export default ImageCircle;
