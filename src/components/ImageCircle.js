@@ -1,5 +1,6 @@
 import React from 'react';
 import './ImageCircle.css';
+import CustomButton from './CustomButton';
 
 // COMPOSANT STATELESS = COMPOSANT FONCTION
 
@@ -38,6 +39,7 @@ const ImageCircle = (props) => {  // ou {name, lastname, imgUrl, description} et
         <p>Nom: {fullname()}</p>
         <p>Age: {age}</p>
         <p>Description: {description}</p>
+        <CustomButton></CustomButton>
     </div>
     )
 }
